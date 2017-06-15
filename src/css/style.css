@@ -1,0 +1,35 @@
+body,html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Ubuntu', sans-serif
+}
+
+.c-form {
+	text-align: center;
+	display: block;
+}
+
+.c-input{
+	border-radius: 3px;
+	background-color: #efefef;
+	border: 1px solid #ccc;
+	padding: 15px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.c-input:invalid{
+	background: #fff no-repeat calc(100% - 5px) 50% / 32px;
+	background-image: image-set(url(../img/cancel.png) 4x);
+}
+
+.c-input:valid{
+	background: #fff no-repeat calc(100% - 5px) 50% / 32px;
+	background-image: image-set(url(../img/checked.png) 4x);
+}

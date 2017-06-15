@@ -1,0 +1,119 @@
+body,html {
+	height: 100%;
+	margin: 0
+}
+
+body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.c-form {
+	display: block
+}
+
+.c-input {
+	border-radius: 3px;
+	background-color: #efefef;
+	border: 1px solid #ccc;
+	padding: 15px;
+	height: 40px;
+	line-height: 40px
+}
+
+.c-input:invalid {
+	background: #fff no-repeat calc(100% - 5px) 50%/32px;
+	background-image: url(../img/cancel@x1.png)
+}
+
+.c-input:valid {
+	background: #fff no-repeat calc(100% - 5px) 50%/32px;
+	background-image: url(../img/checked@x1.png)
+}
+
+.webp .c-input:invalid {
+	background-image: url(../img/cancel@x1.webp)
+}
+
+.webp .c-input:valid {
+	background-image: url(../img/checked@x1.webp)
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),(min-resolution:144dpi) {
+	.c-input:invalid {
+		background-image:url(../img/cancel@x1.5.png)
+	}
+
+	.c-input:valid {
+		background-image: url(../img/checked@x1.5.png)
+	}
+
+	.webp .c-input:invalid {
+		background-image: url(../img/cancel@x1.5.webp)
+	}
+
+	.webp .c-input:valid {
+		background-image: url(../img/checked@x1.5.webp)
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution:192dpi) {
+	.c-input:invalid {
+		background-image:url(../img/cancel@x2.png)
+	}
+
+	.c-input:valid {
+		background-image: url(../img/checked@x2.png)
+	}
+
+	.webp .c-input:invalid {
+		background-image: url(../img/cancel@x2.webp)
+	}
+
+	.webp .c-input:valid {
+		background-image: url(../img/checked@x2.webp)
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3),(min-resolution:288dpi) {
+	.c-input:invalid {
+		background-image:url(../img/cancel@x3.png)
+	}
+
+	.c-input:valid {
+		background-image: url(../img/checked@x3.png)
+	}
+
+	.webp .c-input:invalid {
+		background-image: url(../img/cancel@x3.webp)
+	}
+
+	.webp .c-input:valid {
+		background-image: url(../img/checked@x3.webp)
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 4),(min-resolution:384dpi) {
+	.c-input:invalid {
+		background-image:url(../img/cancel.png)
+	}
+
+	.c-input:valid {
+		background-image: url(../img/checked.png)
+	}
+
+	.webp .c-input:invalid {
+		background-image: url(../img/cancel.webp)
+	}
+
+	.webp .c-input:valid {
+		background-image: url(../img/checked.webp)
+	}
+}
