@@ -2,7 +2,7 @@
 
 ## View result [online](https://retyui.github.io/modern-generation-icon-for-retina-display/index.html)
 
-![](https://pp.userapi.com/c639816/v639816614/2a002/ENc9kzXXOBw.jpg)
+![](https://pp.userapi.com/c638127/v638127614/4b3e3/WFp7dcnVt5c.jpg)
 
 ## How it works
 
