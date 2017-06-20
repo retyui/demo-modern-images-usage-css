@@ -13,7 +13,7 @@
 
 5. [`autoprefixer`](https://github.com/postcss/autoprefixer) fixed `@media` rules. [view code 👀](https://github.com/retyui/demo-modern-images-usage-css/blob/master/gulpfile.js#L43)
 6. [`css-mqpacker`](https://github.com/hail2u/node-css-mqpacker) groups duplicated media rules. [view code 👀](https://github.com/retyui/demo-modern-images-usage-css/blob/master/gulpfile.js#L44)
-7. [`autoprefixer`](https://github.com/postcss/autoprefixer) minify css code. [view code 👀](https://github.com/retyui/demo-modern-images-usage-css/blob/master/gulpfile.js#L45)
+7. [`csso`](https://github.com/css/csso) minify css code. [view code 👀](https://github.com/retyui/demo-modern-images-usage-css/blob/master/gulpfile.js#L45)
 
 
 ## ⚠️ The order of postcss plugins 
